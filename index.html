@@ -5,41 +5,64 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="/custom.css">
         <title>undisassemble</title>
         <link rel="icon" type="image/x-icon" href="https://github.com/undisassemble.png?size=32&v=4">
     </head>
     
     <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="rounded-circle me-2" src="https://github.com/undisassemble.png?size=32&v=4" width="32"/>undisassemble</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link p-0" href="https://github.com/undisassemble"><img alt="GitHub" src="/github-mark-white.svg" width="32"/></a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://crackmy.app/users/cm6gytwnw001rv2hnpx51r4z3"><img alt="crackmy.app" src="https://crackmy.app/favicon.ico" width="32" height="32"/></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-0" href="https://github.com/undisassemble"><img alt="GitHub" src="/github-mark-white.svg" width="32"/></a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
         <!-- body -->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Hello friendo :wave:</h1>
-                <p class="lead">Bear with me while I work on this site :&rpar;</p>
+                <h1 class="display-4 pt-2">Hello friendo 👋</h1>
+                <h4 class="pt-3">About me</h4>
+                <p class="pt-1">I'm currently a high school senior, majoring in CSEC next year. My focus is reverse engineering, specifically with Windows applications and PEs. I mainly program in C++, but I also know C, Python, and x86 Intel Assembly.</p>
+                <h4 class="pt-3">My system</h4>
+                <div class="mt-2 container code-container"><pre><code>
+       _,met$$$$$gg.          <span class="text-danger">undisassemble</span>
+    ,g$$$$$$$$$$$$$$$P.       -------------------
+  ,g$$P"     """Y$$.".        <span class="text-danger">OS</span>: Debian GNU/Linux 12 (bookworm) x86_64
+ ,$$P'              `$$$.     <span class="text-danger">Shell</span>: bash 5.2.15
+',$$P       ,ggs.     `$$b:   <span class="text-danger">Resolution</span>: 1920x1080, 1920x1080
+`d$$'     ,$P"'   <span class="text-danger">.</span>    $$$    <span class="text-danger">WM</span>: i3
+ $$P      d$'     <span class="text-danger">,</span>    $$P    <span class="text-danger">Theme</span>: Nordic-darker [GTK2/3]
+ $$:      $$.   <span class="text-danger">-</span>    ,d$$'    <span class="text-danger">Icons</span>: breeze-dark [GTK2/3]
+ $$;      Y$b._   _,d$P'      <span class="text-danger">Terminal</span>: Tabby
+ Y$$.    <span class="text-danger">`.</span>`"Y$$$$P"'         <span class="text-danger">CPU</span>: Intel i7-9700K (8) @ 4.900GHz
+ `$$b      <span class="text-danger">"-.__</span>              <span class="text-danger">GPU</span>: AMD ATI Radeon RX 7900 XT
+  `Y$$                        <span class="text-danger">Memory</span>: 32027MiB
+   `Y$$.                      
+     `$$b.                    
+       `Y$$b.                 
+          `"Y$b._             
+              `"""
+                </code></pre></div>
             </div>
         </div>
 
@@ -48,6 +71,8 @@
             <div class="container">
                 <h1>Projects</h1>
                 <p class="lead"><a href="/yap.html">Yet Another Packer</a> - Protector for 64-bit Windows PEs.</p>
+                <p class="lead"><a href="https://github.com/undisassemble/InjectDumper">InjectDumper</a> - Detect and dump code injections.</p>
+                <p class="lead"><a href="https://github.com/undisassemble/PEFixup">PEFixup</a> - Dump running processes and search for know OEP signatures.</p>
             </div>
         </div>
 

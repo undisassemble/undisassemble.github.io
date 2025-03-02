@@ -1,0 +1,10 @@
+code {
+    font-family:Consolas,monospace;
+    overflow-y:scroll;
+    line-height:0px;
+}
+
+.code-container {
+    background-color:rgba(0, 0, 0, 0.26);
+    border-radius:1em;
+}
